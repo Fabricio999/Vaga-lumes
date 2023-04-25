@@ -1,0 +1,28 @@
+body {
+  background: #000000;
+}
+
+.hacker {
+  width: 150%;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+}
+
+.titulo {
+  padding-left: 450px;
+  color: #0000ff;
+}
+
+nav p {
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.texto {
+  padding-left: 450px;
+  color: #ff00ff;
+}

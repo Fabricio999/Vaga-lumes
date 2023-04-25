@@ -1,0 +1,207 @@
+ header {
+   padding: 20px 0;
+  background: #000000;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.vaga {
+  padding-left: 450px;
+  width: 50%;
+}
+
+nav {
+ position: absolute;
+  top: 110px;
+  right: 0px; 
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+.playstation {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.playstation li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  border-radius: 10px;
+}
+
+.playstation li:hover {
+  border-color: aqua;
+}
+
+.playstation li:active {
+  border-color: lime;
+}
+
+.playstation li:hover h2 {
+  font-size: 34px;
+  color: lime;
+}
+
+.playstation li {
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.comprar {
+  margin: 3px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ff00ff;
+}
+
+.comprar:active {
+  color: lime;
+}
+
+.img1 {
+  width: 62%;
+}
+
+.img2 {
+  width: 100%;
+}
+
+.img3 {
+  width: 55%;
+}
+
+.img4 {
+  width: 91%;
+}
+
+.img5 {
+  width: 40%;
+}
+
+.img6 {
+  width: 104%;
+}
+
+.tamanho-logo {
+  width: 35%
+}
+
+.pg {
+  margin-top: 58%;
+  color: white;
+  text-align: center;
+  background: url("bg.jpg")
+}
+
+footer {
+  margin-top: 42%;
+  color: white;
+  text-align: center;
+  background: url("bg.jpg")
+}
+
+a {
+  text-transform: uppercase;
+  color: #00ffff;
+  text-decoration: none;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 35px;
+  width: 50%;
+  border: 1px solid #000000;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
